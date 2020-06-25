@@ -1,0 +1,48 @@
+in [ ]:
+# Python program to find the Max of three numbers.
+
+def max_of_two( x, y ):
+    if x > y:
+        return x
+    return y
+def max_of_three( x, y, z ):
+    return max_of_two( x, max_of_two( y, z ) )
+print(max_of_three(1, 2, -5))
+2
+In [ ]:
+# Python program to reverse a string.
+
+s=str(input("Enter the string"))
+print(s[::-1])
+Enter the stringprince
+ecnirp
+In [ ]:
+# Python program to check if a number is prime or not
+
+num = int(input("Enter a number: "))
+if num > 1:
+   for i in range(2,num):
+       if (num % i) == 0:
+           print(num,"is not a prime number")
+           print(i,"times",num//i,"is",num)
+           break
+   else:
+       print(num,"is a prime number")
+else:
+   print(num,"is not a prime number")
+Enter a number: 6
+6 is not a prime number
+2 times 3 is 6
+In [ ]:
+# Python program to find sum of squares of first n natural numbers
+
+n=int(input("Enter the n value: "))
+def sqsum(n) :
+   sm = 0
+   for i in range(1, n+1) :
+      sm = sm + pow(i,2)
+   return sm
+print(sqsum(n))
+Enter the n value: 6
+91
+In [ ]:
