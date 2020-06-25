@@ -1,0 +1,401 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyORkYMOkGjYuJYFzSZFqimN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/321910305034/sameer/blob/master/Untitled1.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "JNt_qs50p0X3",
+        "colab_type": "text"
+      },
+      "source": [
+        "1.write a python program to design simple calculater for the operater"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "51nOELinntID",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 170
+        },
+        "outputId": "24875bca-f69f-44e4-87af-025b313ccebb"
+      },
+      "source": [
+        "a=int(input(\"Enter the value of a\"))\n",
+        "b=int(input(\"Enter the value of b\"))\n",
+        "print(\"sum of two numbers is\",a+b)\n",
+        "print(\"difference of two numbers\",a-b)\n",
+        "print(\"product of two numbers is\",a*b)\n",
+        "print(\"division of two numbers is\",a/b)\n",
+        "print(\"modulus of two numbers is\",a%b)\n",
+        "print(\"exponent of two numbers is\",a**b)\n",
+        "print(\"floor divisionis\",a//b)\n"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the value of a5\n",
+            "Enter the value of b3\n",
+            "sum of two numbers is 8\n",
+            "difference of two numbers 2\n",
+            "product of two numbers is 15\n",
+            "division of two numbers is 1.6666666666666667\n",
+            "modulus of two numbers is 2\n",
+            "exponent of two numbers is 125\n",
+            "floor divisionis 1\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "CEHKVtNKrD5x",
+        "colab_type": "text"
+      },
+      "source": [
+        "2.write a python program to calculate the simpe interest"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "94LPWcKRqHLP",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 85
+        },
+        "outputId": "d8ef5378-f13d-40ee-ac39-4c230a3b4a13"
+      },
+      "source": [
+        "p=int(input(\"Enter the value of p\"))\n",
+        "t=int(input(\"Enter the time\"))\n",
+        "r=int(input(\"Enter the r\"))\n",
+        "print(\"simple interest is\",(p*t*r)/100)\n",
+        "p='principal value'\n",
+        "t='time'\n",
+        "r='interest rate'"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the value of p100000\n",
+            "Enter the time2\n",
+            "Enter the r2\n",
+            "simple interest is 4000.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "EHlKs9vcrrz7",
+        "colab_type": "text"
+      },
+      "source": [
+        "3.write a python program to calculate the area of circle"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "NxkTp6CVrNra",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "8fb050da-da1a-4fc9-d6eb-230641d34296"
+      },
+      "source": [
+        "r=\"rdius\"\n",
+        "r=int(input(\"Enter the value of r\"))\n",
+        "print(\"Area of the circle  is\",3.14*r**2)"
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the value of r2\n",
+            "Area of the circle  is 12.56\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ltYTCyojsboR",
+        "colab_type": "text"
+      },
+      "source": [
+        "4.write a python program to calculate the area of triangle"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "fK9qGsg4r3o6",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "abe325ff-11ac-4dd8-e663-bae7e2331522"
+      },
+      "source": [
+        "b=\"breadth\"\n",
+        "l=\"length\"\n",
+        "b=int(input(\"Enter the value of b\"))\n",
+        "l=int(input(\"Enter the value of l\"))\n",
+        "print(\"Area of triangle is\",0.5*b*1)"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the value of b3\n",
+            "Enter the value of l4\n",
+            "Area of triangle is 1.5\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "z2fYww2_uSgA",
+        "colab_type": "text"
+      },
+      "source": [
+        "5.write a python program to temperature in celsius to fahrenheit"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "W4E6IQrdtKCR",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "d3fce708-b1ad-4f62-d0e0-c46b90df964e"
+      },
+      "source": [
+        "c=\"celsius temperature\"\n",
+        "c=float(input(\"Enter the value of c\"))\n",
+        "fahrenheit=(1.8*c+32)\n",
+        "print(\"celsius to fahrenheit is\",fahrenheit)"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the value of c37.5\n",
+            "celsius to fahrenheit is 99.5\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ZGP5qe5dvoId",
+        "colab_type": "text"
+      },
+      "source": [
+        "6.write a python program to calculate the area of rectangle"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Q2jt5Y5xusv2",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "d334c36f-8b6e-4d54-ae7f-2db4c04c4317"
+      },
+      "source": [
+        "l=\"length\"\n",
+        "b=\"breadth\"\n",
+        "l=int(input(\"Enter the value of l\"))\n",
+        "b=int(input(\"Enter the value of b\"))\n",
+        "print(\"area of rectangle is\",l*b)"
+      ],
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the value of l5\n",
+            "Enter the value of b4\n",
+            "area of rectangle is 20\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ofl7lXavxMvM",
+        "colab_type": "text"
+      },
+      "source": [
+        "7.write a python program to calculate perimeter of square"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "od8lKb9FwCkS",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "4ad5c105-13a1-4845-fe42-26eaf6a29518"
+      },
+      "source": [
+        "a=\"side of square\"\n",
+        "a=int(input(\"Enter the value of a\"))\n",
+        "print(\"perimeter of square is\",4*a)"
+      ],
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the value of a4\n",
+            "perimeter of square is 16\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ZzhR-YaRBHfF",
+        "colab_type": "text"
+      },
+      "source": [
+        "8.write a python to calculate circumference of a circle"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "UMwbzT0gAjvx",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "0d912ce9-32d8-4eca-ee4f-e3f61e796d1b"
+      },
+      "source": [
+        "r=\"radius of circle\"\n",
+        "r=int(input(\"Enter the value of r\"))\n",
+        "print(\"Circumference of circle is\",2*3.14*r)"
+      ],
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the value of r4\n",
+            "Circumference of circle is 25.12\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WK5OdmFOCkvj",
+        "colab_type": "text"
+      },
+      "source": [
+        "9.write a python program to swap two numbers"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "qQcSb2AIBoSx",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 85
+        },
+        "outputId": "dc16466a-373d-4748-a696-891564be7251"
+      },
+      "source": [
+        "x=int(input(\"Enter the value of x\"))\n",
+        "y=int(input(\"Enter he value of y\"))\n",
+        "temp='x'\n",
+        "y='temp'\n",
+        "print(\"the value of x after swaping\",x)\n",
+        "print(\"the value of y after swaping\",y)"
+      ],
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the value of x5\n",
+            "Enter he value of y6\n",
+            "the value of x after swaping 5\n",
+            "the value of y after swaping temp\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
