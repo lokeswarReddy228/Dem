@@ -1,0 +1,129 @@
+In [ ]:
+
+1.Write a Python program to find area of a circle using math function
+
+In [ ]:
+def area_of_circle(r):
+   import math
+   a=math.pi*r**2
+   return a
+ 
+ r=float(input('enter radius of a circle'))
+print("%.2f"%area_of_circle(r))
+enter radius of a circle3
+28.27
+2.Write a program to find Area of Regular Polygon using math function
+
+In [ ]:
+X= float(input("Enter the length of any side: "))
+Y= int(input("Enter the number of sides in the regular polygon: "))
+import math
+numerator= math.pow(X,2)*Y
+denominator= 4*(math.tan(math.pi/Y))
+area= numerator/denominator
+print("The area of the regular polygon is:",area)
+Enter the length of any side: 6
+Enter the number of sides in the regular polygon: 6
+The area of the regular polygon is: 93.53074360871938
+.Write a program to find Area of a Segment of a Circle Formula using math function.
+
+In [ ]:
+X=float(input('enter the radius of the circle'))
+Y=int(input('enter the value of central angle in degrees:'))
+import math
+part_one= (math.pow(X,2))/2
+part_two= ((((math.pi)/180)*Y)-math.sin(Y))
+area= part_one*part_two
+print("Area of the segment of a circle of radius",X, "and central angle",Y,"is:",area)
+enter the radius of the circle4
+enter the value of central angle in degrees:5
+Area of the segment of a circle of radius 4.0 and central angle 5 is: 8.36952589810284
+4.Write a python program to shuffle list l1=[100,1,2,3,30,40,”hai”,”hello”].
+
+In [ ]:
+from random import shuffle
+mylist=[100,1,2,3,30,40,"hi","hello"]
+print("List before shuffling:",mylist)
+shuffle(mylist)
+print("List after shuffling:",mylist)
+List before shuffling: [100, 1, 2, 3, 30, 40, 'hi', 'hello']
+List after shuffling: [100, 30, 2, 3, 40, 'hello', 1, 'hi']
+5.Write a program to generate random numbers between 1,10000 and difference between each random number is 50.
+
+In [ ]:
+import random
+print("Random number between 1 and 10000 which has a step of 50:",random.randrange(1,10000,50))
+Random number between 1 and 10000 which has a step of 50: 3551
+6.Write a python program by using math module to find 1.sin 60°
+
+In [ ]:
+import math
+math.sin(60)
+Out[ ]:
+-0.3048106211022167
+2.cos(pi)
+
+In [ ]:
+import math
+math.cos (math.pi)
+Out[ ]:
+-1.0
+3.tan 90°
+
+In [ ]:
+import math
+math.tan(90)
+Out[ ]:
+-1.995200412208242
+4.angle of sin(0.8660254037844386)
+
+In [ ]:
+import math
+math.sin(0.8660254037844386)
+Out[ ]:
+0.7617599814162892
+5.5^8
+
+In [ ]:
+import math
+math.pow(5,8)
+Out[ ]:
+390625.0
+6.square root of 400
+
+In [ ]:
+import math
+math.sqrt(400)
+Out[ ]:
+20.0
+7.the value of 5^e
+
+In [ ]:
+import math
+math.pow(5,math.e)
+Out[ ]:
+79.43235916621322
+The value of Log(1024), base 2
+In [ ]:
+import math
+math.log(1024,2)
+Out[ ]:
+10.0
+The value of Log(1024), base 1
+In [ ]:
+import math
+math.log(1024,10)
+Out[ ]:
+3.0102999566398116
+10.The Floor and Ceiling value of 23.56
+
+In [ ]:
+import math
+math.ceil(23.56)
+Out[ ]:
+24
+In [ ]:
+import math
+math.floor(23.56)
+Out[ ]:
+23
