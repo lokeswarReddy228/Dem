@@ -1,0 +1,75 @@
+In [1]:
+# Python program to check wheather the given two values are equal or not.
+
+x=input("Enter the first value")
+y=input("Enter the second value")
+if x == y:
+  print("Both inputs are equal")
+else:
+  print("Your input is not equal.")
+Enter the first value4
+Enter the second value4
+Both inputs are equal
+In [3]:
+# Python program to check wheather the given three values are All are equal or not("By using and")
+
+a=input("Enter the value of a ")
+b=input("Enter the value of b ")
+c=input("Enter the value of c ")
+a == b and b == c
+Enter the value of a 2
+Enter the value of b 2
+Enter the value of c 2
+Out[3]:
+True
+In [4]:
+# Python program to check wheather the given three values are atleast any of two equal or not("By using or")
+
+a=input("Enter the value of a ")
+b=input("Enter the value of b ")
+c=input("Enter the value of c ")
+a == b or b == c or c == a
+Enter the value of a 2
+Enter the value of b 3
+Enter the value of c 2
+Out[4]:
+True
+In [5]:
+# Python program to check wheather the sum of two numbers is :
+# 1. greater than 5
+# 2. less than 5
+# 3. equal to 5
+l=int(input("Enter the value of l= "))
+m=int(input("Enter the value of m= "))
+sum = l + m
+print("the sum of l and m is",sum)
+if sum > 5:
+  print("The given values sum is greater than 5 ")
+elif sum < 5:
+  print("The given values sum is lesser than 5 ")
+else:
+  print("The given values sum is equal to 5")
+Enter the value of l= 2
+Enter the value of m= 3
+the sum of l and m is 5
+The given values sum is equal to 5
+In [6]:
+# Python program to check Suppose passing marks of a subject is 35. Take input of marks from user and check whether it is greater than passing marks or not.
+
+pasing_marks = 35
+marks = int(input("Enter the marks "))
+print ("Marks is greater than passing marks:",marks>pasing_marks)
+Enter the marks 38
+Marks is greater than passing marks: True
+In [7]:
+# Python program to find the Max of three numbers.
+
+def max_of_two( x, y ):
+    if x > y:
+        return x
+    return y
+def max_of_three( x, y, z ):
+    return max_of_two( x, max_of_two( y, z ) )
+print(max_of_three(1, 2, -5))
+2
+In [ ]:
